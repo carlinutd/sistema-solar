@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("image.map/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sol {
+    margin: 4% 40px;
+    display: none;
+}
+
+#sol:target {
+    display: block;
+}
+
+#marte {
+    margin: 4% 40px;
+    display: none;
+    border-radius: 20px; /* Cantos arredondados */
+}
+
+#marte:target {
+    display: block;
+}
+
+#terra {
+    margin: 4% 40px;
+    display: none;
+    border-radius: 30px; /* Cantos arredondados */
+}
+
+#terra:target {
+    display: block;
+}
+
+#jupiter {
+    margin: 4% 40px;
+    display: none;
+    border-radius: 40px; /* Cantos arredondados */
+}
+
+#jupiter:target {
+    display: block;
+}
+
+#saturno {
+    margin: 4% 40px;
+    display: none;
+    border-radius: 10px; /* Cantos arredondados */
+}
+
+#saturno:target {
+    display: block;
+}
+
+#foto {
+    margin: 4% 40px;
+    margin-top: 40px;
+    border-radius: 10px; /* Cantos arredondados */
+}
+
+
+
+
+
+
+
+
+
